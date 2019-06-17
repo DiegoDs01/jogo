@@ -20,3 +20,9 @@ section{
     background: rgba(140, 241, 72, 0.808);
   }
 
+  .flip{
+    display: none;
+    transition: 1s;
+    transform: rotateX(180deg);
+
+}
