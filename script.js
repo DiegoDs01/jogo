@@ -1,8 +1,2 @@
-const cartas = document.querySelector(".carta");
-
-function embaralhar(){
-    cartas 
-}
-
-cartas.onclick();
+const cartas = document.querySelectorAll('.carta')
 

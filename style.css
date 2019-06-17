@@ -1,20 +1,22 @@
 body{
  margin: 0;
- overflow: hidden;
 }
 
 section{
     padding: 100px;
     display: flex;
-    justify-content: space-around ;
-    align-items: center ;
+    flex-wrap: wrap;
+    margin: auto;
+    flex-direction: column;
 }
-
-img{
-    display: flex;
-    align-items: center;
-    width: 100px;
-    height: 150px;
-    justify-content: space-around;
-}
+ 
+.carta-frente,
+  .oposto {
+    width: 10%;
+    height: 10%;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    background: rgba(140, 241, 72, 0.808);
+  }
 
